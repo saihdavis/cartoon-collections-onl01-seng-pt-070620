@@ -22,3 +22,4 @@ def find_the_cheese(string)
   while i < cheese_types.length 
   return cheese_types.first 
 end
+end
