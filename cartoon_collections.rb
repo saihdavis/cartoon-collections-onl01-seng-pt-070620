@@ -1,17 +1,22 @@
+require "pry" 
 def roll_call_dwarves(dwarf_names)
   dwarf_names.each_with_index do |name, index|
     index += 1
     puts "#{index}. #{name}"
 end
 end
-
-def summon_captain_planet# code an argument here
-  # Your code here
+#binding.pry 
+def summon_captain_planet(planeteer_calls)
+  planeteer_calls.map { |planeteer_calls| planeteer_calls.capitalize + "!"}
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(calls)
+  calls.any? do |calls|
+    calls.size > 4
+
+    
 end
+end 
 
 def find_the_cheese# code an argument here
   # the array below is here to help
